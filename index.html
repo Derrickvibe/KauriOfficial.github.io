@@ -18,12 +18,14 @@
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/app.css">
+    <!-- <link rel="stylesheet" href="assets/css/style-starter.css"> -->
     
     <!-- Custom StleSheet -->
     <link rel="stylesheet" href="assets/css/custom.css">
 
     <!-- Icons -->
     <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <!-- <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
 
 </head>
     
@@ -106,19 +108,19 @@
                         <i class="fa fa-briefcase mb-3 icon-size"></i>
                         <h5 class=" mb-3">Build Digital Products</h5>
                         <p>Everyone has an idea but many don’t know how to go about it. We help you build something people want!</p>
-                        <a href="#">Read More</a>
+                        <a class="text-success" href="#">Read More</a>
                     </div>
                     <div class="col-md-4 text-center">
                         <i class="fa fa-life-ring mb-3 icon-size"></i>
                         <h5 class=" mb-3">Build Digital Products</h5>
                         <p>Everyone has an idea but many don’t know how to go about it. We help you build something people want!</p>
-                        <a href="#">Read More</a>
+                        <a class="text-success" href="#">Read More</a>
                     </div>
                     <div class="col-md-4 text-center">
                         <i class="fa fa-wrench mb-3 icon-size"></i>
                         <h5 class=" mb-3">Build Digital Products</h5>
                         <p>Everyone has an idea but many don’t know how to go about it. We help you build something people want!</p>
-                        <a href="#">Read More</a>
+                        <a class="text-success" href="#">Read More</a>
                     </div>
                 </div>
             </div>
@@ -218,6 +220,30 @@
             </div>
         </div>
     </div>
+
+    <div class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img class="d-block w-100" src="//www.tutsmake.com/wp-content/uploads/2019/03/install-sublime-on-ubunut.jpeg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-100" src="//www.tutsmake.com/wp-content/uploads/2019/03/boostrap-datetimepicker.jpeg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-100" src="//www.tutsmake.com/wp-content/uploads/2019/03/laravel-razorpay-payment.jpeg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="text-success sr-only">Next</span>
+            </a>
+        </div>
+    </div>
     <!-- Testimonials -->
     <!-- Main Content -->
 
@@ -229,7 +255,7 @@
         <div class="container text-center ">
             <div class="col my-auto">
                 <a class="navbar-brand" href="/">
-                    <img src="{{asset('storage/KauriLogoWhite.svg')}}" alt="Kauri" style="width: 200px;">
+                    <img src="assets/images/KauriLogoWhite.svg" alt="Kauri" style="width: 200px;">
                 </a>
                 <div class="col-xl-5 mx-auto mb-3">
                     <h1 class="headline text-white">We are ready! Are you?</h1>
@@ -261,32 +287,17 @@
 </footer>
 <!-- //Footer -->
 
-<!-- SCRIPTS -->
-<!-- move top -->
+<!-- Back To Top Button -->
 <button onclick="topFunction()" id="movetop" class="bg-success" title="Go to top">
     <span class="fa fa-angle-up"></span>
 </button>
-<script>
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function () {
-        scrollFunction()
-    };
+<!-- Back To Top Button -->
 
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            document.getElementById("movetop").style.display = "block";
-        } else {
-            document.getElementById("movetop").style.display = "none";
-        }
-    }
+<!-- SCRIPTS -->
 
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
-</script>
-<!-- /move top -->
+<!-- custom js -->
+<script src="assets/js/custom.js"></script>
+<!-- //custom js -->
 
 <!-- common jquery -->
 <script src="assets/js/jquery-3.3.1.min.js"></script>
@@ -295,15 +306,6 @@
 <!--  bootstrap js -->
 <script src="assets/js/bootstrap.min.js"></script>
 <!--  //bootstrap js -->
-<!-- disable body scroll which navbar is in active -->
-<!-- <script>
-    $(function () {
-        $('.navbar-toggler').click(function () {
-            $('body').toggleClass('noscroll');
-        })
-    });
-</script> -->
-<!-- disable body scroll which navbar is in active -->
-<!-- SCRIPS -->
+<!-- SCRIPtS -->
 </body>
 </html>

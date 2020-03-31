@@ -75,3 +75,27 @@
     color: rgb(29, 29, 29);
     text-decoration-color: rgb(29, 29, 29);
 }
+
+#movetop {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 99;
+    font-size: 25px;
+    cursor: pointer;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    -o-border-image: initial;
+    border-image: initial;
+    outline: none;
+    padding: 0px;
+    border-radius: 50%;
+    opacity: .8;
+    transition: all 20.5s ease-out 20s;
+  }
