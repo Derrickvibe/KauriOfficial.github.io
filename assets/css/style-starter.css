@@ -11752,11 +11752,11 @@ a {
   }
 }
 
-/*--/content with photo5--*/
+/* --/content with photo5--
 .w3l-content-photo-5 {
   /*-- responsive design --*/
-  /*-- //responsive design --*/
-}
+  /*-- //responsive design --*
+} */
 
 .w3l-content-photo-5 .content-left {
   align-self: center;
@@ -11815,13 +11815,6 @@ a {
   }
 }
 
-/*--//content with photo5--*/
-/* gallery-7 */
-.w3l-gallery-7 {
-  /*******************KEYFRAMES*******************/
-  /******************MEDIA QUERYS******************/
-  /* responsive code */
-}
 
 .w3l-gallery-7 .galleryContainer {
   display: flex;
@@ -12274,11 +12267,6 @@ section.w3l-grid-quote h3 {
   }
 }
 
-/*-- mid --*/
-.w3l-footers-1 {
-  /*-- responsive design --*/
-  /*-- //responsive design --*/
-}
 
 .w3l-footers-1 .d-grid {
   display: grid;
